@@ -1,0 +1,19 @@
+.Header {
+    /* background-color: rgb(245, 245, 245); */
+    background-color: #007bce;
+}
+
+.Header h1 {
+    padding: 2rem 2rem;
+    padding-bottom: 1rem;
+    /* color: #007bce; */
+    color: #fff;
+}
+
+.Header p {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    /* color: #253B6E; */
+    color: #d1d1d1;
+    font-size: 1rem;
+}

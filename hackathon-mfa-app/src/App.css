@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('./assets/fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('./assets/fonts/Roboto-Bold.ttf');
+}
+
+h1,
+h2 {
+    font-family: 'Roboto-Bold';
+}
+
+p {
+    font-family: 'Roboto-Regular';
+}

@@ -1,0 +1,38 @@
+.GeneratedCode {
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+}
+
+.GeneratedCode h2 {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    color: #007bce;
+    margin-bottom: 1rem;
+}
+
+#FiShield {
+    font-size: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    color: #00538a;
+
+}
+
+.CodeData {
+    margin-right: auto;
+}
+
+.CodeData p {
+    margin: 1rem 0;
+    color: rgb(82, 82, 82);
+}
+
+#TiDelete {
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: 2rem;
+    color: rgb(129, 0, 0);
+    cursor: pointer;
+}

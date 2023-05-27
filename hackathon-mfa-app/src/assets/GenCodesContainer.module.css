@@ -1,0 +1,22 @@
+.GenCodesContainer {
+    /* margin: 0 2rem;
+    max-width: 400px; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#AddButton {
+    font-size: 2.5rem;
+    margin-left: auto;
+    margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    color: #007bce;
+    cursor: pointer;
+}
+
+.GenCodesContainer h2 {
+    margin: 1rem 1rem;
+    color: #007bce;
+}
