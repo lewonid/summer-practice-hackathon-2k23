@@ -36,7 +36,6 @@ const GenCodesContainer = () => {
         // console.log(mfaData);
         setShowForm(false);
     };
-    console.log(mfaData);
 
     // remove element function from mfa list
     const removeElement = (elementToRemove) => {
@@ -55,11 +54,12 @@ const GenCodesContainer = () => {
     const getDataByApi = async () => {
         const fetchedData = await fetchData('https://swapi.dev/api/people/');
         setFetchedData(fetchedData.results);
+        console.log(fetchedData);
+
     }
     // getDataByApi();
     // }, [])
 
-    console.log(fetchedData);
 
     // get all the elements from localStorage
     useEffect(() => {
@@ -107,7 +107,8 @@ const GenCodesContainer = () => {
                 showForm && <AddNewMfaForm handleInput={handleInput} />
             }
             <h2>Add data by fetching random names from an API:</h2>
-            <Button onClick={() => getDataByApi} variant="contained">fetch data by api</Button>
+            <Button onClick={getDataByApi} variant="contained">fetch data by api</Button>
+            {/* deleted arrow function after push */}
         </div>
     )
 }
